@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TrueMile EV — Privacy Policy</title>
+<style>
+body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6;color:#1a2332;max-width:760px;margin:0 auto;padding:24px 20px 60px}
+h1{font-size:1.6em;border-bottom:2px solid #0e2a47;padding-bottom:8px}h2{font-size:1.2em;margin-top:1.6em;color:#0e2a47}h3{font-size:1.05em}
+table{border-collapse:collapse;width:100%;font-size:.92em}th,td{border:1px solid #cbd5e1;padding:6px 10px;text-align:left}th{background:#f1f5f9}
+a{color:#0b62c4}@media(prefers-color-scheme:dark){body{background:#0d1420;color:#dbe4f0}h1{border-color:#4da3ff}h2{color:#7db8f0}th{background:#182233}th,td{border-color:#2c3a50}a{color:#5aa5f5}}
+</style></head><body>
+<h1>TrueMile EV — Privacy Policy</h1>
+
+<p><strong>Effective date: August 7, 2026</strong></p>
+
+<p>TrueMile EV (&quot;the app&quot;) is built and operated by Gate Engineering LLC. This policy describes</p>
+<p>exactly what data the app handles, where it goes, and how you can delete it. It is written to be</p>
+<p>read, not skimmed — there is nothing hidden in it.</p>
+
+<h2>The short version</h2>
+
+<ul>
+<li>Your data is used to run <strong>your own</strong> trip and charging history. Nothing else.</li>
+<li><strong>No ads. No sale of data. No third-party analytics or tracking SDKs.</strong></li>
+<li>Your data lives in the app&#x27;s own private cloud database, keyed to your account.</li>
+<li>Deleting your account in the app deletes your cloud data.</li>
+</ul>
+
+<h2>What the app collects</h2>
+
+<table>
+<tr><th>Data</th><th>Why</th></tr>
+<tr><td>**Email address**</td><td>Account sign-in (authentication only).</td></tr>
+<tr><td>**Vehicle VIN and vehicle specs** (make, model, year, battery details; optional door-jamb label photos you choose to capture)</td><td>Identifies your vehicle so your trips, charges, and efficiency stats are computed for the right car.</td></tr>
+<tr><td>**Trip GPS routes** (location breadcrumbs while driving, odometer, speed, energy use)</td><td>Automatic trip logging and per-trip maps — the core feature of the app.</td></tr>
+<tr><td>**Charge sessions** (charger location, energy delivered, price you enter, timestamps)</td><td>Your charging history, cost tracking, and charging-curve analytics.</td></tr>
+<tr><td>**Crash reports** (stack trace, app version, device model, a random install identifier)</td><td>Fixing bugs. The identifier is random — it is not your email, account, or advertising ID.</td></tr>
+</table>
+
+<h2>Where it lives</h2>
+
+<p>Your data is stored in the app&#x27;s own database project (hosted on Supabase), in a private account</p>
+<p>scoped to your sign-in. It is not shared with, rented to, or sold to anyone. Access is restricted</p>
+<p>by row-level security to your own account.</p>
+
+<p>Some data also lives <strong>only on your device</strong>: app settings, diagnostic logs (off by default,</p>
+<p>opt-in, and only ever leave the phone if you personally share the file), and cached map data.</p>
+
+<h2>Background location</h2>
+
+<p>The app asks for background (&quot;Allow all the time&quot;) location because **automatic trip logging is</p>
+<p>the core feature**: it detects when you start driving and records the route without you opening</p>
+<p>the app. Location is recorded for your own trip history. It is not used for advertising, profiling,</p>
+<p>or location sharing of any kind. You can decline background location; trip logging then only works</p>
+<p>while the app is open.</p>
+
+<h2>Third-party services the app talks to</h2>
+
+<p>The app queries a small number of services to do its job. Each receives only what the feature</p>
+<p>needs, never your identity:</p>
+
+<ul>
+<li><strong>Charger directories</strong> (NREL / Open Charge Map): the map region you are viewing, to list</li>
+</ul>
+<p>  nearby chargers.</p>
+<ul>
+<li><strong>Routing</strong> (OSRM): route coordinates, to draw and time your planned route.</li>
+<li><strong>Community charger prices</strong> (optional, on by default, can be turned off in Settings): when you</li>
+</ul>
+<p>  log a paid public charge, the station&#x27;s location, price, and speed can be contributed to a shared</p>
+<p>  community dataset under a <strong>random anonymous identifier</strong> — never your email, account, or VIN.</p>
+<p>  Home charging is <strong>never</strong> contributed.</p>
+
+<p>None of these are analytics or advertising services.</p>
+
+<h2>What the app does NOT do</h2>
+
+<ul>
+<li>No advertising, ad SDKs, or ad identifiers.</li>
+<li>No sale or sharing of personal data with data brokers.</li>
+<li>No third-party analytics (no Google Analytics, Firebase Analytics, Mixpanel, etc.).</li>
+<li>No reading of contacts, messages, photos (other than vehicle photos you take in-app), or any</li>
+</ul>
+<p>  data unrelated to driving and charging.</p>
+
+<h2>Retention and deletion</h2>
+
+<ul>
+<li>Your cloud data is kept for as long as you keep your account.</li>
+<li><strong>Settings → Delete account</strong> removes your cloud data (trips, charges, vehicle records) from the</li>
+</ul>
+<p>  app&#x27;s database.</p>
+<ul>
+<li>Uninstalling the app removes all local data from the device.</li>
+<li>Crash reports and anonymous community price contributions are retained only in aggregate and are</li>
+</ul>
+<p>  not linked to a deleted account.</p>
+
+<h2>Children</h2>
+
+<p>The app is a vehicle telemetry tool and is not directed at children under 13.</p>
+
+<h2>Changes</h2>
+
+<p>If this policy changes, the updated version will be posted at this URL with a new effective date.</p>
+
+<h2>Contact</h2>
+
+<p>Questions or deletion requests: <strong><a href="mailto:gurkansphone@gmail.com">gurkansphone@gmail.com</a></strong></p>
+
+</body></html>
